@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <body>
+    <div class="start">
+      <button class="startQuiz">START QUIZ</button>
+    </div>
+    <div class="container visible">
+      <h1>QUIZ APP</h1>
+      <div class="app">
+        <ul class="app-ul">
+          <!-- <li> -->
+          <!-- <ul class="quizApp"> -->
+          <!-- <h3 class="question">Who is the owner of facebook?</h3>
+          <li><span>A.</span> <button></button>Elon Musk </li>
+          <li><span>B.</span> <button></button>Mark Zuckerberg</li>
+          <li><span>C.</span> <button></button>Bill Gates</li>
+          <li><span>D.</span> <button></button>Steve Jobs</li> -->
+          <!-- </ul> -->
+          <!-- </li> -->
+          <li class="item" data-app="1">
+            <ul class="quizApp">
+              <h3 class="question"></h3>
+              <form>
+                <li>
+                  A.
+                  <input
+                    type="radio"
+                    name="options"
+                    class="radio-btn"
+                    data-target="0"
+                  />
+                  <label for="options" class="label"
+                    ><p class="option--0" data-answer="0"></p
+                  ></label>
+
+                </li>
+                <li>
+                  B.
+                  <input
+                    type="radio"
+                    name="options"
+                    class="radio-btn"
+                    data-target="1"
+                  />
+                  <label for="options" class="label"
+                    ><p class="option--1"data-answer="1"></p
+                  ></label>
+
+                </li>
+                <li>
+                  C.
+                  <input
+                    type="radio"
+                    name="options"
+                    class="radio-btn"
+                    data-target="2"
+                  />
+                  <label for="options" class="label"
+                    ><p class="option--2" data-answer="2"></p
+                  ></label>
+
+                </li>
+                <li>
+                  D.
+                  <input
+                  type="radio"
+                  name="options"
+                  class="radio-btn"
+                  data-target="3"
+                  />
+                  <label for="options" class="label"
+                    ><p class="option--3" data-answer="3"></p
+                  ></label>
+                </li>
+              </form>
+            </ul>
+          </li>
+        </ul>
+        <!-- <input type="button" value="prev" class="check" /> -->
+        <div class="btns">
+          <input type="button" value="Prev" class="prev" />
+          <input type="button" value="Next" class="next" />
+          <input type="button" value="Submit" class="submit" />
+        </div>
+      </div>
+    </div>
+    <div class="displayScore visible">
+      <h1>YOU SCORED: <span class="score"></span></h1>
+    </div>
+  </body>
+</html>

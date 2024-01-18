@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+body {
+  background: rgb(195, 236, 255);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.visible {
+  display: none !important;
+}
+.app {
+  background: rgb(255, 255, 255);
+  width: 80%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 1.2rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.app-ul {
+  list-style: none;
+}
+.item {
+  list-style: none;
+}
+.question {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+.quizApp {
+  list-style: none;
+  color: black;
+  /* position: absolute; */
+}
+.quizApp li {
+  display: flex;
+  padding: 0.5rem;
+}
+.quizApp li p {
+  padding-left: 1rem;
+}
+/* .prev,
+.next {
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  background: rgb(197, 197, 197);
+  border: none;
+} */
+.btns {
+  display: flex;
+  justify-content: end;
+}
+.btns input {
+  margin: 0.5rem;
+}
+.next {
+  border: none;
+  background: rgb(168, 168, 168);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  padding: 0.5rem 1.1rem;
+  /* margin-left: auto; */
+}
+.prev {
+  border: none;
+  background: rgb(168, 168, 168);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  padding: 0.5rem 1.1rem;
+  margin-left: auto;
+}
+.submit {
+  display: none;
+  border: none;
+  background: rgb(0, 132, 255);
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease-in-out;
+  padding: 0.5rem 1.1rem;
+  margin-left: auto;
+}
+.radio-btn {
+  width: 20px;
+  margin-left: 10px;
+}
+.radio-btn:checked {
+  color: black;
+}
+.start {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: white; */
+}
+.startQuiz {
+  border: none;
+  background: rgb(0, 132, 255);
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease-in-out;
+  padding: 0.7rem 1.4rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.displayScore {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(245, 245, 245);
+}
+.displayScore h1{
+  font-weight: 800;
+}
+.score{
+  font-weight: 800;
+}

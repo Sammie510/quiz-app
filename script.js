@@ -44,7 +44,7 @@ const questions = [
   },
   {
     id: 1234567895,
-    question: 'What is the fastes air animal?',
+    question: 'What is the fastest air animal?',
     options: ['Eagle', 'Falcon', 'Parrot', 'Duck'],
     correct: 'Falcon',
   },
